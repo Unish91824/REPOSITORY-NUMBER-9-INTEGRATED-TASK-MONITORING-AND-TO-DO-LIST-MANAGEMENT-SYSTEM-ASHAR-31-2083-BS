@@ -1,0 +1,140 @@
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#f2f4f8;
+}
+
+.app{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:260px;
+background:#1e2b45;
+color:white;
+padding:20px;
+overflow:auto;
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+.sidebar button{
+display:block;
+width:100%;
+padding:10px;
+margin:5px 0;
+background:#2f3f66;
+border:none;
+color:white;
+cursor:pointer;
+border-radius:6px;
+}
+
+.sidebar button:hover{
+background:#3e5185;
+}
+
+.sidebar .active{
+background:#4cafef;
+}
+
+.main{
+flex:1;
+padding:25px;
+overflow:auto;
+}
+
+h1{
+margin-bottom:20px;
+}
+
+.dashboard{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+font-weight:bold;
+}
+
+.form{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom:15px;
+}
+
+.form input,.form select{
+padding:8px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.form button{
+background:#4caf50;
+border:none;
+padding:8px 15px;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:10px;
+text-align:left;
+}
+
+th{
+background:#4cafef;
+color:white;
+}
+
+button{
+padding:6px 10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+background:#4cafef;
+color:white;
+}
+
+button:hover{
+opacity:.9;
+}
+
+.login{
+height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:10px;
+}
+
+.login input{
+padding:10px;
+width:250px;
+}
+
+.login button{
+padding:10px 20px;
+background:#4cafef;
+border:none;
+color:white;
+}
